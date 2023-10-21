@@ -1,0 +1,217 @@
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,700;1,300;1,700&family=Oswald:wght@200;400;600&display=swap");
+* {
+  box-sizing: border-box;
+}
+body {
+  padding: 0;
+  /* text-align: center; */
+  margin: 0;
+  background-color: #cddecb;
+  background-image: url("data:image/svg+xml,%3Csvg width='40' height='40' viewBox='0 0 40 40' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath d='M20 20.5V18H0v-2h20v-2H0v-2h20v-2H0V8h20V6H0V4h20V2H0V0h22v20h2V0h2v20h2V0h2v20h2V0h2v20h2V0h2v20h2v2H20v-1.5zM0 20h2v20H0V20zm4 0h2v20H4V20zm4 0h2v20H8V20zm4 0h2v20h-2V20zm4 0h2v20h-2V20zm4 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2zm0 4h20v2H20v-2z' fill='%231af710' fill-opacity='0.68' fill-rule='evenodd'/%3E%3C/svg%3E");
+  font-family: "Oswald", sans-serif;
+}
+.container-nav {
+  display: flex;
+  padding: 15px;
+  width: 100%;
+  height: 100px;
+  /* border-bottom: 3px solid black; */
+  /* justify-content: space-between; */
+}
+.logo {
+  max-width: 5rem;
+  position: static;
+  /* border: 2px solid purple; */
+}
+a {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar {
+  display: flex;
+  background-color: black;
+  width: 100%;
+  justify-content:space-around;
+  border: 2px solid red;
+  align-items: center;
+}
+.nav-links {
+  display: flex;
+  align-items: center;
+  justify-content:space-between;
+  height: 100%;
+  /* border: 2px solid blue; */
+  list-style: none;
+}
+.nav-links li {
+  padding: 40px;
+}
+.button-menu{
+  display: none;
+}
+@media (max-width: 768px) {
+  .nav-links{
+    display: none;
+  }
+  .button-menu{
+    display:block;
+  }
+
+}
+.fa-solid fa-bars{
+  width: 280px;
+}
+
+.titulo {
+  /* display: flex; */
+  text-align: center;
+  font-size: 20px;
+  color: blueviolet;
+  /* border: 2px solid violet; */
+}
+.texto{
+  display:block;
+  padding: 20px;
+}
+.bloc {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  /* background-color: lightblue; */
+}
+.bloc_bis {
+  height: 500px;
+  /* background-image: url("https://images.unsplash.com/photo-1690789824921-6754195c97ee?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE2OTIyMTEwNjZ8&ixlib=rb-4.0.3&q=85"); */
+  background-size: cover;
+  background-position: center;
+  transition: 0.5s ease-in-out;
+  flex: 1;
+}
+.bloc_bis:hover {
+  flex: 4;
+  border-radius: 20px;
+}
+.bloc_bis:not(:hover) {
+  opacity: 0.8;
+}
+._img1{
+  background-image: url(../images/img1.avif);
+}
+._img2{
+  background-image: url(../images/img2.webp);
+}
+._img3{
+  background-image: url(../images/img3.jpg);
+}
+.seccion1{
+  display: flex;
+}
+.paisaje1{
+  width: 40%;
+  padding: 20px;
+  
+}
+.div1{
+  padding: 20px;
+}
+.excB{
+  width: 100%;
+  display: flex;
+}
+.imgP{
+  width: 500px;
+  padding: 20px;
+}
+.div_exc{
+  display: flex;
+}
+.exch1{
+  text-align: center;
+}
+label{
+  width: 100%;
+  display: block;
+  padding-bottom: 10px; 
+}
+
+/* Id */
+#main-section{
+  display: inline-flex;
+  justify-content: space-around;
+  align-items: center;
+
+  width: 100vw;
+  padding: 20px 0;
+}
+
+#form-registro{
+  display: flex;
+  flex-direction: row;
+  flex-flow: wrap;
+  align-items: center;
+  background: #e2e2e2;
+  padding: 35px;
+  border-radius: 10px;
+}
+
+/* Clases */
+.subtitle{
+  padding: 15px 0 30px;
+  color: grey;
+}
+.section{
+  padding: 0 60px;
+}
+.ul{
+  list-style: none;
+  display: inline-flex;
+  justify-content: center;
+  width: 100%;
+}
+  .ul li {
+      padding: 0 20px;
+  }
+.link.btn {
+  padding: 10px 20px;
+  color: grey;
+  text-decoration: none;
+  font-weight: 700;
+  border: solid 1px;
+  border-radius: 10px;
+  display: block;
+  position: relative;
+  margin: 20px auto 0;
+  width: 80%;
+}
+.form-group{
+  padding: 10px 15px;
+}
+.input{
+  padding: 8px 15px;
+  border: solid 1px grey;
+  border-radius: 5px;
+}  
+/* Pseudo-Clases */
+#main-section .section:first-child{
+  max-width: 450px;
+}
+.form-group:last-child{
+  width:100%;
+}
+
+.link:hover{
+  color:white;
+  background-color:grey;
+}
+.input:focus{
+  color: grey;
+  outline-color: green;
+}
+/* Pseudo-Elementos */
+.link::after{
+
+}
+.link::before{
+
+}
