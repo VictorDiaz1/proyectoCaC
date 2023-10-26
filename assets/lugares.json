@@ -1,0 +1,65 @@
+[
+  {
+    "id": "1",
+    "provincia": "RioNegro",
+    "nombre": "Cerro Catedral",
+    "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti minima culpa quis esse ab! Hic corrupti eaque, cum, harum enim cumque dolores modi labore ex reiciendis eos vel omnis, facilis provident optio excepturi error delectus aspernatur eveniet. Eligendi, id?",
+    "imagen": "../images/catedral.jpeg"
+  },
+  {
+    "id": "2",
+    "provincia": "RioNegro",
+    "nombre": "Cerro Campanario",
+    "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti minima culpa quis esse ab! Hic corrupti eaque, cum, harum enim cumque dolores modi labore ex reiciendis eos vel omnis, facilis provident optio excepturi error delectus aspernatur eveniet. Eligendi, id?",
+    "imagen": "../images/campanario.jpg"
+  },
+  {
+    "id": "3",
+    "provincia": "RioNegro",
+    "nombre": "Cerro Tronador",
+    "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti minima culpa quis esse ab! Hic corrupti eaque, cum, harum enim cumque dolores modi labore ex reiciendis eos vel omnis, facilis provident optio excepturi error delectus aspernatur eveniet. Eligendi, id?",
+    "imagen": "../images/tronador.jpg"
+  },
+  {
+    "id": "4",
+    "provincia": "Córdoba",
+    "nombre": "Ciudad de Córdoba",
+    "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti minima culpa quis esse ab! Hic corrupti eaque, cum, harum enim cumque dolores modi labore ex reiciendis eos vel omnis, facilis provident optio excepturi error delectus aspernatur eveniet. Eligendi, id?",
+    "imagen": "../images/ciudadCordoba.jpg"
+  },
+  {
+    "id": "5",
+    "provincia": "Córdoba",
+    "nombre": "La Falda",
+    "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti minima culpa quis esse ab! Hic corrupti eaque, cum, harum enim cumque dolores modi labore ex reiciendis eos vel omnis, facilis provident optio excepturi error delectus aspernatur eveniet. Eligendi, id?",
+    "imagen": "../images/laFalda.jpg"
+  },
+  {
+    "id": "6",
+    "provincia": "Córdoba",
+    "nombre": "Sierras de Córdoba",
+    "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti minima culpa quis esse ab! Hic corrupti eaque, cum, harum enim cumque dolores modi labore ex reiciendis eos vel omnis, facilis provident optio excepturi error delectus aspernatur eveniet. Eligendi, id?",
+    "imagen": "../images/sierrasCordoba.avif"
+  },
+  {
+    "id": "7",
+    "provincia": "Salta",
+    "nombre": "Cafayate ",
+    "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti minima culpa quis esse ab! Hic corrupti eaque, cum, harum enim cumque dolores modi labore ex reiciendis eos vel omnis, facilis provident optio excepturi error delectus aspernatur eveniet. Eligendi, id?",
+    "imagen": "../images/cafayate.jpg"
+  },
+  {
+    "id": "8",
+    "provincia": "Salta",
+    "nombre": "Iruya",
+    "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti minima culpa quis esse ab! Hic corrupti eaque, cum, harum enim cumque dolores modi labore ex reiciendis eos vel omnis, facilis provident optio excepturi error delectus aspernatur eveniet. Eligendi, id?",
+    "imagen": "../images/iruya.jpg"
+  },
+  {
+    "id": "9",
+    "provincia": "Salta",
+    "nombre": "Salta Capital",
+    "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Numquam corrupti minima culpa quis esse ab! Hic corrupti eaque, cum, harum enim cumque dolores modi labore ex reiciendis eos vel omnis, facilis provident optio excepturi error delectus aspernatur eveniet. Eligendi, id?",
+    "imagen": "../images/saltaCapital.jpg"
+  }
+]
