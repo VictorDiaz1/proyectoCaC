@@ -75,9 +75,24 @@ a {
   font-size: 20px;
   color: #6759ff;
 }
+.main-cont{
+  display: flex;
+}
+.iframe{
+  /* width: 40%; */
+  padding:20px;
+}
+.iframe h2{
+  color: #6759ff;
+  text-align: center;
+}
+.iframe-img{
+  text-align: center;
+}
 .texto {
   display: block;
-  padding: 10px;
+  padding: 20px;
+  width: 60%;
 }
 .texto h2 {
   color: #6759ff;
@@ -268,4 +283,18 @@ label {
     grid-template-columns: auto auto;
     grid-column-gap: 1em;
   }
+}
+#footer{
+  width: 100%;
+  text-align: center;
+  background-color: black;
+  height: 70px;
+  color: white;
+  padding: 1rem;
+  margin-bottom: 0;
+  position:static;
+  bottom: 0;
+}
+.relleno{
+  height:300px;
 }

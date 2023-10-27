@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/icon.png" type="image/x-icon" />
     <title>Trabajo Practico</title>
     <link
       rel="stylesheet"
@@ -44,22 +45,38 @@
           </div>
         </div>
       </section>
-      <div class="texto">
-        <h2>Viajes y excursiones</h2>
-        <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
-          repellat, iure cum ipsa officiis nulla reprehenderit magnam laborum
-          esse fugiat? At harum facilis distinctio. Saepe nostrum voluptate
-          nulla neque asperiores sint fugiat recusandae consequuntur quia quod,
-          incidunt possimus expedita. Explicabo quis assumenda possimus repellat
-          pariatur quibusdam, cumque consequuntur unde aperiam ad fuga? Quia,
-          ipsam? Voluptas minus vitae neque amet atque et laboriosam dolores
-          similique dolorum beatae nulla repudiandae, molestiae in voluptatibus,
-          maiores tempore quis ab. Officiis reiciendis iure aut saepe ullam.
-          Illum iste dolore rem, voluptates quia cumque ex quis. Veniam sunt
-          repellendus ratione optio nesciunt sequi dolorem delectus maxime.
-        </p>
-      </div>
+      <section class="main-cont">
+        <div class="texto">
+          <h2>Viajes y excursiones</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Est
+            repellat, iure cum ipsa officiis nulla reprehenderit magnam laborum
+            esse fugiat? At harum facilis distinctio. Saepe nostrum voluptate
+            nulla neque asperiores sint fugiat recusandae consequuntur quia
+            quod, incidunt possimus expedita. Explicabo quis assumenda possimus
+            repellat pariatur quibusdam, cumque consequuntur unde aperiam ad
+            fuga? Quia, ipsam? Voluptas minus vitae neque amet atque et
+            laboriosam dolores similique dolorum beatae nulla repudiandae,
+            molestiae in voluptatibus, maiores tempore quis ab. Officiis
+            reiciendis iure aut saepe ullam. Illum iste dolore rem, voluptates
+            quia cumque ex quis. Veniam sunt repellendus ratione optio nesciunt
+            sequi dolorem delectus maxime.
+          </p>
+        </div>
+        <div class="iframe">
+          <h2>Nuestra ubicación</h2>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d12018.99564503583!2d-71.29887241048584!3d-41.14000696478871!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses!2sar!4v1698422057103!5m2!1ses!2sar"
+            class="iframe-img"
+            width="700"
+            height="300"
+            style="border: 20"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </section>
       <div class="container-json">
         <div id="buttons">
           <button class="button-value" id="btn">Excursiones</button>
@@ -67,7 +84,9 @@
         <div id="excursiones"></div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <div id="footer">&copy2023 Agencia de viajes</div>
+    </footer>
     <script type="module" src="./assets/main.js"></script>
   </body>
 </html>
